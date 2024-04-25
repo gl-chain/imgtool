@@ -1,0 +1,1 @@
+![Build Status](https://app.travis-ci.com/gl-chain/imgtool.svg?token=1qKrxsk4WBqvsbsSyU8k&branch=master)
