@@ -3,8 +3,12 @@ name = "imgtool"
 version = "0.1.0"
 authors = ["gl_chain@163.com"]
 edition = "2021"
+readme = "README.md"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bench]]
+name = "fibonacci"
+harness = false
 
 [dependencies]
-image = "0.19.0"
+image = "0.25.1"
+criterion = "0.5.1"
